@@ -1,14 +1,4 @@
-<!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-    <h2>proyecto final prueba</h2>
-    <ul>
-      <li></li>
-    </ul>
-
-  </body>
-</html>
+function Number(valor);
+  var positivo= 10;
+  var negativo= -3;
+  var decimal= 20.11:
