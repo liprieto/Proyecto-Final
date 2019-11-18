@@ -19,7 +19,7 @@ Las herramientas y tecnologías utilizadas para el mismo serán:
 ...
 
 Los integrantes del Grupo 4 son:
-Juan Manuel Mateo
-Pablo Mateo
-Luis Pietro
-Fernando Quintana
+- Juan Manuel Mateo
+- Pablo Mateo
+- Luis Pietro
+- Fernando Quintana
