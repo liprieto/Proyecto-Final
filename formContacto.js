@@ -8,7 +8,7 @@ function enviar(){
     var datos = $("#formulario").serialize(); //toma los datos "name" y los lleva a un arreglo.
     $.ajax({
         type: "post",
-        url:"formulario.php",
+        url:"formContacto.php",
         data: datos,
         success: function(texto){
             if(texto=="exito"){
