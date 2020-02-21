@@ -1,0 +1,31 @@
+body {
+  padding-top: 56px
+}
+
+.container{
+  background-color:
+
+}
+
+.navbar-custom{
+  background-color: #red;
+}
+
+.navbar-brand {
+  padding: 0px;
+}
+.navbar-brand>img {
+  height: 60px;
+  padding: 15px;
+  width: auto;
+}
+
+.card-footer{
+  margin-bottom: 20px;
+}
+
+.container-footer{
+  margin: 0;
+  width: auto;
+  background-color: #B67E49;
+}

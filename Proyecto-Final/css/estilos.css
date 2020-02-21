@@ -1,0 +1,121 @@
+#staplesbmincart ul {
+        clear: both;
+            float: left;
+            width: 100%;
+            margin: 5px 0 20px;
+            padding: 1em;
+            list-style-type: none;
+        }
+
+        #staplesbmincart .sbmincart-empty ul {
+        display: none;
+        }
+
+        #staplesbmincart .sbmincart-closer {
+        float: right;
+            margin: -3px -10px 0;
+            padding: 0 10px;
+            background: 0;
+            border: 0;
+            font-size: 25px;
+            cursor: pointer;
+            font-weight: bold;
+            outline: none;
+        }
+
+        #staplesbmincart .sbmincart-item {
+        clear: left;
+            padding: 7px 0;
+            min-height: 35px;
+            font-size: 1em;
+        }
+
+            #staplesbmincart .sbmincart-item + .sbmincart-item {
+        border - top: 1px solid #f2f2f2;
+            }
+
+            #staplesbmincart .sbmincart-item a {
+        color: #333;
+                text-decoration: none;
+            }
+
+        #staplesbmincart .sbmincart-details-name {
+        float: left;
+        }
+
+        #staplesbmincart .sbmincart-details-quantity {
+        float: left;
+        }
+
+        #staplesbmincart .sbmincart-details-remove {
+        float: left;
+        }
+
+        #staplesbmincart .sbmincart-details-price {
+        float: left;
+            text-align: right;
+        }
+
+        #staplesbmincart .sbmincart-quantity {
+        height: 18px;
+            padding: 2px 4px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+            font-size: 13px;
+            text-align: right;
+            transition: border linear 0.2s, box-shadow linear 0.2s;
+            -webkit-transition: border linear 0.2s, box-shadow linear 0.2s;
+            -moz-transition: border linear 0.2s, box-shadow linear 0.2s;
+        }
+
+            #staplesbmincart .sbmincart-quantity:hover {
+        border - color: #0078C1;
+            }
+
+            #staplesbmincart .sbmincart-quantity:focus {
+        border - color: #0078C1;
+                outline: 0;
+                box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 3px rgba(0, 120, 193, 0.4);
+            }
+
+        #staplesbmincart .sbmincart-remove {
+        width: 18px;
+            height: 19px;
+            margin: 2px 0 0;
+            padding: 0;
+            background: #b7b7b7;
+            border: 1px solid #a3a3a3;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 13px;
+            opacity: 0.70;
+            cursor: pointer;
+        }
+
+            #staplesbmincart .sbmincart-remove:hover {
+        opacity: 1;
+            }
+
+        #staplesbmincart .sbmincart-footer {
+        clear: left;
+            text-align: right;
+            margin-right: 1.5em;
+            position: relative;
+            padding: 0 0 0 50px;
+        }
+
+        p.sbmincart-empty-text {
+        color: #f44336;
+            font-weight: 500;
+        }
+
+        #staplesbmincart .sbmincart-subtotal {
+        bottom: 3px;
+            padding-left: 0;
+            font-size: 16px;
+            font-weight: bold;
+            display: block;
+        }
+
+
